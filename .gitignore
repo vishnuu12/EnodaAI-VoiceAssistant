@@ -1,0 +1,38 @@
+# Android Studio / IntelliJ
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+build/
+**/build/
+
+# Local SDK configuration
+local.properties
+
+# Android generated files
+.externalNativeBuild/
+.cxx/
+
+# APK files
+*.apk
+*.aab
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Python environment / secrets
+.env
+.env.*
+!.env.example
+
+# Test / tooling cache
+.pytest_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
